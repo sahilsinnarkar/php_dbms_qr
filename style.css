@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ACE1AF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: flex;
+    background-color: #E0FFFF;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#lp {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+#lr {
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#ld {
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+#prn {
+    margin-left: 85px;
+}
+
+#rollno {
+    margin-left: 25px;
+}
+
+#name {
+    margin-left: 77px;
+}
+
+#year {
+    margin-left: 88px;
+}
+
+#department {
+    margin-left: 33px;
+}
+
+#contact {
+    margin-left: 63px;
+}
+
+#email {
+    margin-left: 75px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn-success {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
